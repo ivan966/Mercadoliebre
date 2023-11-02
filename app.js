@@ -9,6 +9,6 @@ app.listen(3030,() => console.log('Dale que arranca en el 3030'));
 
 //home
 app.get('/',(req,res)=>{
-    res.sendFile(path.resolve('./views/home.html'))
+    res.sendFile(path.resolve('./views/index.html'))
 });
 
